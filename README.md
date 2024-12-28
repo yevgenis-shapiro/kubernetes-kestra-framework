@@ -1,5 +1,6 @@
 
-![maxresdefault](https://github.com/user-attachments/assets/31f93417-c7f3-4473-a020-dc06ef137c91)
+![hq720](https://github.com/user-attachments/assets/3eaa07a3-3a0e-4e2e-b344-e6c9431aa7ba)
+
 
 
 ## Terraform Module - Kestra | ⭐⭐⭐ Yevgeni ⭐⭐⭐
