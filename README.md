@@ -29,9 +29,7 @@ How to launch  :
 
 ## AWS
 ```
-
 ```
 ## Google
 ```
-
 ```
