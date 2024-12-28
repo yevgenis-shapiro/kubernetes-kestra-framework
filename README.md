@@ -3,7 +3,7 @@
 
 
 
-## Terraform Module - Kestra | ⭐⭐⭐ Yevgeni ⭐⭐⭐
+## Terraform - Kestra Framework   | ⭐⭐⭐
 Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows easy. By Infrastructure as Code
 
 🚀  Key Features
