@@ -3,7 +3,7 @@
 
 
 
-## Terraform - Kestra Framework   | ⭐⭐⭐
+## Terraform Module - Kestra Framework   | ⭐⭐⭐
 Kestra is an open-source infinitely-scalable orchestration platform enabling all engineers to manage business-critical workflows declaratively in code . Infrastructure as Code (IaC)
 
 🚀  Key Features
@@ -18,7 +18,7 @@ Kestra is an open-source infinitely-scalable orchestration platform enabling all
 ```
 
 
-### Plugin Ecosystem :
+🧩 Plugin Ecosystem :
 ```
 📃 Run Anywhere:
 Local or Remote Execution: Execute tasks on your local machine, remote servers via SSH, or scale out to serverless containers using Task Runners.
@@ -41,7 +41,7 @@ Stay Informed: Send messages to Slack channels, email notifications, or trigger 
 ```
 
 
-## 🔨 Example : Config 
+🔨 Example : Config 
 
 ## AWS
 ```
