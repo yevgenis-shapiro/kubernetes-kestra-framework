@@ -18,7 +18,7 @@ Kestra is an open-source infinitely-scalable orchestration platform enabling all
 ```
 
 
-🧩 Plugin Ecosystem :
+🎯 Focus :
 ```
 📃 Run Anywhere:
 Local or Remote Execution: Execute tasks on your local machine, remote servers via SSH, or scale out to serverless containers using Task Runners.
@@ -40,10 +40,15 @@ Big Data Processing: Run big data processing tasks using tools like Apache Spark
 Stay Informed: Send messages to Slack channels, email notifications, or trigger alerts in PagerDuty to keep your team updated on workflow statuses.
 ```
 
+🎨 Build Workflows Visually 
+```
+Drag-and-Drop Interface: add and rearrange tasks from the Topology Editor.
+Real-Time Validation: instant feedback on your workflow's syntax and structure to catch errors early.
+Auto-Completion: smart suggestions as you type to write flow code quickly and without syntax errors.
+Live Topology View: see your workflow as a Directed Acyclic Graph (DAG) that updates in real-time.
+```
 
-🔨 Example : Config 
-
-## AWS
+🧩 AWS Config 
 ```
 configuration:
   kestra:
@@ -69,7 +74,8 @@ configuration:
         bucket: "<your-s3-bucket-name>"
 
 ```
-## Google
+
+🧩 Google Config 
 ```
 configuration:
   kestra:
