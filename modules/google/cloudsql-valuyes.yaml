@@ -1,0 +1,12 @@
+configuration:
+  kestra:
+    queue:
+      type: postgres
+    repository:
+      type: postgres
+  datasources:
+    postgres:
+      url: jdbc:postgresql://<your-db-external-endpoint>:5432/<db_name>
+      driverClassName: org.postgresql.Driver
+      username: <your-username>
+      password: <your-password>
