@@ -4,7 +4,7 @@
 
 
 ## Terraform - Kestra Framework   | ⭐⭐⭐
-Kestra is an open-source infinitely-scalable orchestration platform enabling all engineers to manage business-critical workflows declaratively in code . Infrastructure as Code
+Kestra is an open-source infinitely-scalable orchestration platform enabling all engineers to manage business-critical workflows declaratively in code . Infrastructure as Code (IaC)
 
 🚀  Key Features
 ```
