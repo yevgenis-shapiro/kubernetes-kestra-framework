@@ -18,11 +18,10 @@ Kestra is an open-source, event-driven orchestration platform that makes both sc
 ✅ Structure & Resilience
 ```
 
-Software Specification : Will be soon 
 
 📝 Instruction 
-
 How to launch  : Will be soon 
+
 
 
 🔨 Example : Config 
