@@ -18,10 +18,6 @@ Kestra is an open-source infinitely-scalable orchestration platform enabling all
 ```
 
 
-📝 Instruction 
-How to launch  : Will be soon 
-
-
 ### Complements :
 ```
 📃 Webserver: this components is serving both an API and a User Interface
