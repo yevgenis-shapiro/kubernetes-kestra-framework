@@ -42,6 +42,16 @@ configuration:
       username: your_username
       password: your_password
 
+configuration:
+  kestra:
+    storage:
+      type: s3
+      s3:
+        accessKey: "<your-aws-access-key-id>"
+        secretKey: "<your-aws-secret-access-key>"
+        region: "<your-aws-region>"
+        bucket: "<your-s3-bucket-name>"
+
 ```
 ## Google
 ```
@@ -57,4 +67,14 @@ configuration:
       driverClassName: org.postgresql.Driver
       username: <your-username>
       password: <your-password>
+
+configuration:
+  kestra:
+    storage:
+      type: gcs
+      gcs:
+        bucket: "<your-cloud-storage-bucket-name>"
+        projectId: "<your-gcp-project-name>"
+        serviceAccount: |
+          "<stringified-json-file-contents>"
 ```
