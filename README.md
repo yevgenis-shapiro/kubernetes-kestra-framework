@@ -4,15 +4,14 @@
 
 
 ## Terraform - Kestra Framework   | ⭐⭐⭐
-Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows easy. By Infrastructure as Code
+Kestra is an open-source infinitely-scalable orchestration platform enabling all engineers to manage business-critical workflows declaratively in code . Infrastructure as Code
 
 🚀  Key Features
 ```
-✅ Everything as Code and from the UI
+✅ Intuitive UI & Code Editor
 ✅ Event-Driven & Scheduled Workflows
 ✅ Declarative YAML Interface
 ✅ Rich Plugin Ecosystem
-✅ Intuitive UI & Code Editor
 ✅ Scalable
 ✅ Version Control
 ✅ Structure & Resilience
@@ -22,6 +21,14 @@ Kestra is an open-source, event-driven orchestration platform that makes both sc
 📝 Instruction 
 How to launch  : Will be soon 
 
+
+### Complements :
+```
+📃 Webserver: this components is serving both an API and a User Interface
+📃 Scheduler: an essential part of the system that schedules workflows and handles all triggers except for the flow triggers
+📃 Executor: another critical component responsible for the orchestration logic including flow triggers
+📃 Worker: this might be one or multiple processes that carry out the heavy computation of runnable tasks and polling triggers. For privacy reasons, workers are the only components that interact with the user's infrastructure, including the internal storage and external services
+```
 
 
 🔨 Example : Config 
