@@ -18,12 +18,33 @@ Kestra is an open-source infinitely-scalable orchestration platform enabling all
 ```
 
 
-### Complements :
+### Plugin Ecosystem :
 ```
-📃 Webserver: this components is serving both an API and a User Interface
-📃 Scheduler: an essential part of the system that schedules workflows and handles all triggers except for the flow triggers
-📃 Executor: another critical component responsible for the orchestration logic including flow triggers
-📃 Worker: this might be one or multiple processes that carry out the heavy computation of runnable tasks and polling triggers. For privacy reasons, workers are the only components that interact with the user's infrastructure, including the internal storage and external services
+📃 Run Anywhere:
+
+Local or Remote Execution: Execute tasks on your local machine, remote servers via SSH, or scale out to serverless containers using Task Runners.
+Docker and Kubernetes Support: Seamlessly run Docker containers within your workflows or launch Kubernetes jobs to handle compute-intensive workloads.
+
+📃 Code in Any Language:
+
+Scripting Support: Write scripts in your preferred programming language. Kestra supports Python, Node.js, R, Go, Shell, and others, allowing you to integrate existing codebases and deployment patterns.
+Flexible Automation: Execute shell commands, run SQL queries against various databases, and make HTTP requests to interact with APIs.
+
+📃 Event-Driven and Real-Time Processing:
+
+Real-Time Triggers: React to events from external systems in real-time, such as file arrivals, new messages in message buses (Kafka, Redis, Pulsar, AMQP, MQTT, NATS, AWS SQS, Google Pub/Sub, Azure Event Hubs)
+Custom Events: Define custom events to trigger flows based on specific conditions or external signals, enabling highly responsive workflows.
+
+📃 Cloud Integrations:
+
+ AWS, Google Cloud, Azure: Integrate with a variety of cloud services to interact with storage solutions, messaging systems, compute resources, and more.
+ Big Data Processing: Run big data processing tasks using tools like Apache Spark or interact with analytics platforms like Google BigQuery.
+
+📃 Monitoring and Notifications:
+
+   Stay Informed: Send messages to Slack channels, email notifications, or trigger alerts in PagerDuty to keep your team updated on workflow statuses.
+
+
 ```
 
 
