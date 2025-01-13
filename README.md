@@ -22,14 +22,39 @@ Software Specification : Will be soon
 
 📝 Instruction 
 
-How to launch  : 
+How to launch  : Will be soon 
 
 
 🔨 Example : Config 
 
 ## AWS
 ```
+configuration:
+  kestra:
+    queue:
+      type: postgres
+    repository:
+      type: postgres
+  datasources:
+    postgres:
+      url: jdbc:postgresql://<your-rds-url-endpoint>:5432/kestra
+      driverClassName: org.postgresql.Driver
+      username: your_username
+      password: your_password
+
 ```
 ## Google
 ```
+configuration:
+  kestra:
+    queue:
+      type: postgres
+    repository:
+      type: postgres
+  datasources:
+    postgres:
+      url: jdbc:postgresql://<your-db-external-endpoint>:5432/<db_name>
+      driverClassName: org.postgresql.Driver
+      username: <your-username>
+      password: <your-password>
 ```
