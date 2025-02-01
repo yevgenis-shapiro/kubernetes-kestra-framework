@@ -36,5 +36,4 @@ resource "helm_release" "kestra" {
     name  = "deployments.standalone.enabled"
     value = "true"
   }
-  depends_on = [helm_release.ingress_nginx]
 }
