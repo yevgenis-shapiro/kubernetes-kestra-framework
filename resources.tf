@@ -5,6 +5,13 @@ data "external" "subnet" {
     kind_cluster.default
   ]
 }
+
+provider "helm" {
+  kubernetes {
+    config_path = pathexpand(var.kind_cluster_config_path)
+  }
+}
+
 resource "helm_release" "metallb" {
   name             = "metallb"
   repository       = "https://metallb.github.io/metallb"
