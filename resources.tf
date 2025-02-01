@@ -79,5 +79,5 @@ resource "null_resource" "wait_for_ingress_nginx" {
 
 module "kestra" {
   source = "./modules/local"
-  depends_on = [helm_release.ingress_ngin]
+  depends_on = [helm_release.ingress_nginx]
 }
